@@ -47,22 +47,22 @@ iveMembers = [
 
 console.log(iveMembers);
 
-// concat()
+// concat() 기존 array 변경 x
 console.log(iveMembers.concat('코드팩토리'));
 console.log(iveMembers);
 
-// slice()
+// slice() 기존 array 변경 x
 console.log(iveMembers.slice(0, 3));
 console.log(iveMembers);
 
 // spread operator
 let iveMembers2 = [
-    ...iveMembers,
+    ...iveMembers, // 펼치는 것
 ];
 console.log(iveMembers2);
 
 let iveMembers3 = [
-    iveMembers,
+    iveMembers, // 안펼치고 그냥 넣는 것
 ];
 console.log(iveMembers3);
 

@@ -12,7 +12,7 @@ let stringAge = age.toString();
 console.log(typeof stringAge, stringAge);
 
 // 암묵적
-let test = age + '';
+let test = age + ''; 
 console.log(typeof test, test);
 
 console.log('98' + '2');
